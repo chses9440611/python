@@ -1,0 +1,10 @@
+a, b = map(int, raw_input("Enter two numbers, spilt with comma: ").split(','))
+a = int(a)
+b = int(b)
+summ = a+b
+print "%d + %d = %d" % (a, b, summ)
+print "%d * %d = %d" % (a, b, a * b)
+print "%d / %d = %.2f" % (a, b, float(a) / b)
+print "%d mod %d = %d" %(a, b, a % b)
+print '%d //  %d = %d' %(a, b, a // b)
+print "%d ^ %d = %d" % (a, b, a ** b)
